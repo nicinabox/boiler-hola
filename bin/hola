@@ -1,0 +1,12 @@
+#!/usr/bin/env python
+import json
+
+# open the config file
+file = open('config/hola.json')
+
+# parse it
+config = json.load(file)
+file.close()
+
+# say something nice
+print "Hello {0}, you're doing great!".format(config['name'])

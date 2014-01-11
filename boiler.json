@@ -1,0 +1,37 @@
+{
+  "name": "hola",
+  "version": "0.1.0",
+  "description": "",
+  "authors": "nicinabox",
+  "dependencies": {
+  },
+  "license": "MIT",
+  "arch": "noarch",
+  "build": "unraid",
+  "prefix": {
+    "usr/local/boiler/boiler-hola": [
+      "bin",
+      "lib",
+      "Gemfile*"
+    ],
+    "/boot/plugins/custom/boiler-hola/_config": [
+      "config/*"
+    ],
+    "usr/docs/boiler-hola": [
+      "README.*",
+      "LICENSE*"
+    ],
+    "var/log/boiler/boiler-hola": [
+      "boiler.json"
+    ]
+  },
+  "ignore": [
+
+  ],
+  "symlink": {
+  },
+  "post_install": [
+
+  ],
+  "homepage": ""
+}
